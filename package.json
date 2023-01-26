@@ -4,7 +4,6 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "preinstall": "npx npm-force-resolutions",
     "start": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
@@ -12,11 +11,6 @@
   "resolutions": {
     "glob-parent": "^6.0.1"
   },
-=======
-    "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js"
-  },
->>>>>>> cd74f5d4a62725ef074e6f401c4ea67cc17bb77f
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobidev/simplefolio"
@@ -33,7 +27,6 @@
     "css-loader": "^3.4.2",
     "file-loader": "^6.0.0",
     "html-loader": "^1.0.0",
-<<<<<<< HEAD
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^0.9.0",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
@@ -41,23 +34,11 @@
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^4.11.1",
-=======
-    "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "sass-loader": "^8.0.2",
-    "style-loader": "^1.1.3",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
->>>>>>> cd74f5d4a62725ef074e6f401c4ea67cc17bb77f
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
-<<<<<<< HEAD
     "node-sass": "^8.0.0",
     "popper.js": "^1.16.1",
     "sass-loader": "^7.0.0",
@@ -66,9 +47,5 @@
   "overrides": {
     "chokidar": "3.5.3",
     "glob-parent": "6.0.2"
-=======
-    "popper.js": "^1.16.1",
-    "tilt.js": "^1.2.1"
->>>>>>> cd74f5d4a62725ef074e6f401c4ea67cc17bb77f
   }
 }
